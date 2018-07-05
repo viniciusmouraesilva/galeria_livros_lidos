@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #f1f1f1;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Josefin Sans', arial, sans-serif, serif, georgia;
+}
+
+.area {
+	display: flex;
+	flex-flow: column wrap;
+	width: 90%;
+	margin: 15px;
+}
+
+/* header classe menu*/
+.menu {
+	margin-top: -20px;
+	background-color: #F08080;
+	padding: 50px;
+}
+
+.area p {
+	font-family: arial, sans-serif, georgia, serif;
+	font-size: 1.3em;
+}
+
+/* rodape */
+.rodape {
+	padding: 30px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	font-family: arial, georgia, serif;
+}
+
+/* para resoluções com no minimo 730px (Telas maiores Desktop) */
+@media screen and (min-width: 730px) {
+
+/* area principal; corpo*/
+.area {
+	display: flex;
+	flex-flow: row wrap;
+	width: 90%;
+}
+
+/* header classe menu*/
+.menu {
+	margin-top: -20px;
+	background-color: #F08080;
+}
+
+/* são os itens, os produtos */
+.item {
+	display: flex;
+	flex-flow: row wrap;
+	width: 29%;
+	padding: 15px;
+	margin: 25px;
+}
+
+}
